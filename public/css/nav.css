@@ -1,0 +1,87 @@
+    * {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .nav {
+        display: block;
+        flex-wrap: wrap;
+        min-width: 955px;
+    }
+    
+    .top {
+        align-items: center;
+        height: 66px;
+        background-color: white;
+        border-bottom: 1px solid #dbdbdb;
+        position: fixed;
+        top: 0;
+        transition: height .2s ease-in-out;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    .itempart {
+        height: 54px;
+        padding: 0 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 100%;
+        transition: height .2s ease-in-out;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .search {
+        height: 0px;
+        flex: 0;
+        min-width: 125px;
+        width: 215px;
+        padding: 10px;
+        margin-left: 350px;
+    }
+    
+    .bor {
+        margin-left: 350px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .inp {
+        border-radius: 100px;
+        border: 2px solid#2644ee;
+        padding: 5px;
+    }
+    
+    .navigate {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        opacity: 75%;
+        justify-content: flex-end;
+        margin-right: 400px;
+        margin-top: 50px;
+        height: 20px;
+        position: relative;
+        top: -115px;
+    }
+    
+    .icons {
+        display: flex;
+        flex-direction: row;
+        padding-left: 24px;
+        white-space: nowrap;
+        margin: 100px;
+    }
+    
+    .home .meassages .notification .profile .bord {
+        cursor: pointer;
+    }
+    
+    input:focus,
+    textarea:focus,
+    select:focus {
+        outline: none;
+    }
